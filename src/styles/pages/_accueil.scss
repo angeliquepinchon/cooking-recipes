@@ -11,6 +11,7 @@ h1 {
     border: 1px solid $color-2;
 }
 .container-search {
+    min-width: 250px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -25,7 +26,7 @@ h1 {
 
     &:hover {
         cursor: pointer;
-        border: 1px solid $color-2;
+        border: 1px solid #9c7a42;
     }
 }
 .container-origin {
@@ -37,12 +38,14 @@ h1 {
     font-size: 1.3rem;
     }
     select {
+        min-width: 250px;
         height: 30px;
         background-color: $color-2;
         color: $grey;
         border: 1px solid $grey;
         margin-top: 1rem;
     }
+   
 }
 .container-card {
     display: flex;

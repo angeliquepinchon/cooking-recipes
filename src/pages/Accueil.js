@@ -46,7 +46,7 @@ const Accueil = () => {
           >
             <option value="">Please choose an origin</option>
             {uniqueOrigin.map((origin, index) => (
-              <option key={index} value={origin}>
+              <option key={index} value={origin} width="30%">
                 {origin}
               </option>
             ))}

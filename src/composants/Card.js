@@ -7,9 +7,7 @@ const Card = ({ dataRecipes }) => {
       <h2>{dataRecipes.strMeal}</h2>
       <h3>Origin : {dataRecipes.strArea}</h3>
       <img src={dataRecipes.strMealThumb} alt="image of recipe" />
-      <button>
-        <NavLink to={"/recipe/" + dataRecipes.idMeal}>See the recipe</NavLink>
-      </button>
+      <p>{dataRecipes.strInstructions}</p>
     </div>
   );
 };
