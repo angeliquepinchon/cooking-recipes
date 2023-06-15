@@ -1,0 +1,52 @@
+h1 {
+    padding: 2rem;
+    background-color: $color-3;
+    color: $white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container-input {
+    width: 90%;
+    padding: 15px;
+    border: 1px solid $color-2;
+}
+.container-search {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.container-button {
+    width: 10%;
+    background-color: $color-2;
+    border-color: $color-2;
+    border-style: none;
+    color:$grey;
+    transition: 0.3s;
+
+    &:hover {
+        cursor: pointer;
+        border: 1px solid $color-2;
+    }
+}
+.container-origin {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+
+    label {
+    font-size: 1.3rem;
+    }
+    select {
+        height: 30px;
+        background-color: $color-2;
+        color: $grey;
+        border: 1px solid $grey;
+        margin-top: 1rem;
+    }
+}
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
