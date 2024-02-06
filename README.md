@@ -1,6 +1,6 @@
 # Recette de cuisine
 
-API permettant de lister divers recettes à partir de "www.themealdb.com/api/json/v1/1/search.php?s=tomato".
+App permettant de lister divers recettes à partir de "www.themealdb.com/api/json/v1/1/search.php?s=tomato".
 
 ## Pour commencer
 
